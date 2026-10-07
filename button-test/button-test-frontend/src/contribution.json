@@ -1,0 +1,15 @@
+{
+  "applicationNodes": [],
+  "programNodes": [ 
+    {
+      "excludeFromToolbox": false,
+      "translationPath": "assets/i18n/",
+      "iconURI": "assets/icons/button-test.svg",
+      "behaviorURI": "button-test.worker.js",
+      "presenterURI": "main.js",
+      "componentTagName": "marq4-button-test-button-test"
+    }],
+  "smartSkills": [],
+  "sidebarItems": [],
+  "operatorScreens": []
+}

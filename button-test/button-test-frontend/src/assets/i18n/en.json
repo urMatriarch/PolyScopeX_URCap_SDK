@@ -1,0 +1,15 @@
+{
+        "program": {
+          "tree": {
+            "nodes": {
+              "marq4-button-test-button-test": "Button Test"
+          }
+        }
+      },
+        "program-node-labels": {
+            "button-test": {
+                "nodeTitle": "Node Title",
+                "subTitle": "Sub Title - {{ dynamicValue }}"
+            }
+        }
+}

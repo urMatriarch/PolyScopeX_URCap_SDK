@@ -1,0 +1,31 @@
+<div *ngIf="contributedNode" class="inline-component">
+    <ur-button
+        type="cta"
+        [disabled]="false"
+        icon=""
+        iconAlign="left"
+        [active]="false"
+        (clicked)="onClicked()"
+        >
+        Press Me
+    </ur-button>
+
+    <ur-label [label]="labelText" [required]="false"></ur-label>
+
+    <ur-button
+        class="right-justify"
+        type="cta"
+        [disabled]="false"
+        icon=""
+        iconAlign="left"
+        [active]="false"
+        (clicked)="debugOnClicked()"
+        >
+        Toggle Debug
+    </ur-button>
+
+    <ur-label [label]="debugLabelText" [required]="false" class="right-justify"></ur-label>
+
+
+
+</div>
